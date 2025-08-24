@@ -26,10 +26,10 @@ As APIs geralmente usam o **HTTP** para comunicação, e cada ação tem um **m�
 | **PATCH**  | Atualiza **parte** dos dados de um recurso | Alterar somente o e-mail    |
 | **DELETE** | Remove um recurso do servidor       | Deletar um usuário          |
 -------
-Código|	Categoria |	Significado	Exemplo de Uso
-|200|✅	 Sucesso |	Requisição concluída	| GET concluído com sucesso
-201|✅ Criado	Novo | recurso criado	|POST de um novo usuário
-|400|	⚠️ Erro do Cliente |	Requisição inválida	| Dados faltando no POST
-|401|	🔒 Não autorizado |	Falta autenticação	| Token inválido
-|404|	❌ Não encontrado |	Recurso não existe|	Usuário não encontrado
-|500|	💥 Erro do Servidor|	Problema interno no backend |	Falha na conexão do banco
+| **Código**|	**Categoria** |	**Significado**|	**Exemplo de Uso**|
+| **200** |**✅ Sucesso** |	**Requisição concluída**	| **GET concluído com sucesso**|
+| **201** |**✅ Criado	Novo** | **recurso criado**	|**POST de um novo usuário**|
+|**400**|	**⚠️ Erro do Cliente** |	**Requisição inválida**	| **Dados faltando no POST**|
+|**401**|	**🔒 Não autorizado** |**	Falta autenticação**	| **Token inválido**|
+|**404**|	**❌ Não encontrado** |	**Recurso não existe**|	**Usuário não encontrado**|
+|**500**|	**💥 Erro do Servidor**|	**Problema interno no backend** |	**Falha na conexão do banco**|
